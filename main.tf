@@ -23,5 +23,5 @@ resource "google_storage_bucket" "basic_bucket" {
   uniform_bucket_level_access = true
 
   # Set to true only if you want Terraform to allow destruction of a bucket containing objects
-  force_destroy = false 
+  force_destroy = false
 }
